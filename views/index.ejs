@@ -4,166 +4,107 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Foundation | Welcome</title>
+    <link rel="stylesheet" href="stylesheets/normalize.css" />
     <link rel="stylesheet" href="stylesheets/foundation.css" />
+    <link rel="stylesheet" href="stylesheets/app.css" />
     <script src="javascripts/vendor/modernizr.js"></script>
   </head>
   <body>
-    
-    <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation</h1>
-      </div>
-    </div>
-    
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="panel">
-          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://zurb.com/university/code-skills">Foundation Code Skills</a><br />These online courses offer you a chance to better understand how Foundation works and how you can master it to create awesome projects.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://foundation.zurb.com/forum">Foundation Forum</a><br />Join the Foundation community to ask a question or show off your knowlege.</p>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 medium-push-2 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-            </div>
-            <div class="large-4 medium-4 medium-pull-2 columns">
-              <p><a href="https://twitter.com/ZURBfoundation">@zurbfoundation</a><br />Ping us on Twitter if you have questions. When you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>        
-          </div>
-        </div>
-      </div>
-    </div>
+    <nav class="top-bar" data-topbar role="navigation">
+	  <ul class="title-area">
+	    <li class="name">
+	      <h1><a href="#">Owosso Public Schools</a></h1>
+	    </li>
+	     <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+	    <li class="toggle-topbar menu-icon"><a href="#"><span>Menu</span></a></li>
+	  </ul>
 
-    <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
+	  <section class="top-bar-section">
+	    <!-- Right Nav Section -->
+	    <ul class="right">
+	      <li><a href="https://www.sendmoneytoschool.com/Dashboard/Login.aspx">SendMoneyToSchool</a></li>
+	      <li class="active"><a href="https://ps.owosso.k12.mi.us/public/">Powerschool</a></li>
+	    </ul>
+	    <!-- Left Nav Section -->
+	    <ul class="left">
+	      <li><a href="http://www.owosso.k12.mi.us/">Official site</a></li>
+	      <li class="has-dropdown">
+	        <a href="#">Staff</a>
+	        <ul class="dropdown">
+	        	<li><a href="http://owossohigh.mi.oph.schoolinsites.com/?PageName=%27Teachers%27">High School</a></li>
+	        	<li><a href="http://lincolnhigh.mi.oph.schoolinsites.com/?PageName=%27Teachers%27">Lincoln High School</a></li>
+	        	<li><a href="http://owossomiddle.mi.opm.schoolinsites.com/?PageName=%27Teachers%27">Middle School</a></li>
+	        	<li><a href="http://bryantelementary.mi.ope.schoolinsites.com/?PageName=%27Teachers%27">Bryant Elementary</a></li>
+	        	<li><a href="http://centralelementary.mi.ope.schoolinsites.com/?PageName=%27Teachers%27">Central Elementary</a></li>
+	        	<li><a href="http://emersonelementary.mi.ope.schoolinsites.com/?PageName=%27Teachers%27">Emerson Elementary</a></li>
+	        	<li><a href="http://brightbeginnings.mi.ops.schoolinsites.com/?PageName=%27Teachers%27">Bright Beginnings</a></li>
+	        </ul>
+	      </li>
+	    </ul>
+	  </section>
+	</nav>
 
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="callout panel">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
-        
-        <hr />
-                
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-12.columns" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <div class="row collapse">
-                <label>Input Label</label>
-                <div class="small-9 columns">
-                  <input type="text" placeholder="small-9.columns" />
-                </div>
-                <div class="small-3 columns">
-                  <span class="postfix">.com</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Select Box</label>
-              <select>
-                <option value="husker">Husker</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-6 medium-6 columns">
-              <label>Choose Your Favorite</label>
-              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-            </div>
-            <div class="large-6 medium-6 columns">
-              <label>Check these out</label>
-              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Textarea Label</label>
-              <textarea placeholder="small-12.columns"></textarea>
-            </div>
-          </div>
-        </form>
-      </div>     
+	<div class="vignette">
+		<div class="row main">
+	  		<div class="large-3 medium-4 small-6 small-centered columns"><br /><img src="/images/owosso_logo.png" width="100%"><br /></div>
+		</div>
 
-      <div class="large-4 medium-4 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="small button">Simple Button</a><br/>
-        <a href="#" class="small radius button">Radius Button</a><br/>
-        <a href="#" class="small round button">Round Button</a><br/>            
-        <a href="#" class="medium success button">Success Btn</a><br/>
-        <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-        <div class="panel">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Check out the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
-        </div>
-      </div>
-    </div>
+		<div class="row main">
+			<div class="large-10 small-12 large-centered columns">
+				<br />
+				<br />
+				<ul class="small-block-grid-1 large-block-grid-3">
+					<li><div class="panel ad"><p>Student success is Owosso Public Schools' passion, which is why it was rated in the top 7% of schools!</p></div></li>
+					<li><div class="panel ad"><p>For people living in Owosso, you really can't beat the location.</p></div></li>
+					<li><div class="panel ad"><p>Owosso's middle and high schools have numerous clubs, including a robotics club and tautology club.</p></div></li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="row">
+			<br />
+			<div class="large-11 small-12 columns large-centered">
+				<div class="blog panel">
+					<div class="row">
+						<div class="large-4 small-12 columns">
+							<h3 class="blog-title">Back to school on September 12th!</h3>
+							<h6 class="blog-date">September 5th, 2015</h5>
+						</div>
+						<div class="large-8 small-12 columns">
+							<p>School is right around the corner, so we hope you've got your pencils, your spiral notebooks and your 3-ring binders! Also, any complaints about the new curriculum should be directed towards <a href="mailto:lemanskik@owosso.k12.mi.us?Subject=Hello darkness my old friend" target="_top">lemanskik@owosso.k12.mi.us</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="blog panel">
+					<div class="row">
+						<div class="large-4 small-12 columns">
+							<h3 class="blog-title">Curriculum changes</h3>
+							<h6 class="blog-date">August 28th, 2015</h5>
+						</div>
+						<div class="large-8 small-12 columns">
+							<p>In response to parent feedback, history class will focus more heavily on textbook readings and traditional exams, rather than live ammo drills. </p>
+							<p>Geology is adding a new type of rock on the grounds that it's been a while since anyone has done that. The type of rocks is Vimbee, and it is categorized by its pale blue color, and the fact that it is completely edible. Points will be awarded to the first student to discover a real-world example of it.</p>
+							<p>Math and English are switching names. Their curriculum will stay exactly the same.</p>
+							<p>Astronomy will now be conducting star gazing sessions only with blindfolds on every participant, in order to protect them from the existential terror of the void. Also, Pluto has been declared imaginary.</p> 
+							<p>All classrooms will be equipped with at least one teacher physically present for the entire instruction period (Astral projection will no longer be used in any classroom situation).</p>
+							<p>Finally, in addition to the current foreign language offerings of Spanish, French, and Modified Sumerian, schools will now be offering Double Spanish, Weird Spanish, Coptic Spanish, Russian, and Unmodified Sumerian.</p>
+							<p><a href="http://www.commonplacebooks.com/">Night vale</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+	    	<div class="small-12 columns footer">
+	    		This is a fan-made version of the <a href="http://www.owosso.k12.mi.us/">official</a> Owosso Public Schools website. Send any questions to <a href="mailto:andre@popovitch.xyz">andre@popovitch.xyz</a>.
+	    	</div>
+		</div>
+	</div>
+
+	<a href="https://github.com/anchpop/Owosso-Site" id="github-banner"><img style="" src="https://camo.githubusercontent.com/567c3a48d796e2fc06ea80409cc9dd82bf714434/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png"></a>
+
+
     
     <script src="javascripts/vendor/jquery.js"></script>
     <script src="javascripts/foundation.min.js"></script>
