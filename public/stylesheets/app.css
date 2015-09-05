@@ -42,9 +42,11 @@ body {
 	left: 0; 
 	border: 0;
  	z-index: 3;
-
 }
 
+.top-bar-section {
+	z-index: 4;
+}
 
 .vignette {
 	position: relative;
