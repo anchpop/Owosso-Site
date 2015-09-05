@@ -7,6 +7,7 @@
     <meta name="description" content="A fan-made version of the Owosso Public Schools website.">
 	<meta name="keywords" content="Owosso,Public,Schools">
 	<meta name="author" content="Andre Popovitch">
+	<link rel="stylesheet" href="stylesheets/font-awesome.min.css">
     <link rel="stylesheet" href="stylesheets/normalize.css" />
     <link rel="stylesheet" href="stylesheets/foundation.css" />
     <link rel="stylesheet" href="stylesheets/app.css" />
@@ -49,7 +50,7 @@
 
 	<div class="vignette">
 		<div class="row main">
-	  		<div class="large-3 medium-4 small-6 small-centered columns"><br /><img src="/images/owosso_logo.png" width="100%"><br /></div>
+	  		<div class="large-3 medium-4 small-6 small-centered columns"><br /><img src="/images/owosso_logo.png" id="logo" class="shadowed" width="100%"><br /></div>
 		</div>
 
 		<div class="row main">
@@ -57,9 +58,9 @@
 				<br />
 				<br />
 				<ul class="small-block-grid-1 large-block-grid-3">
-					<li><div class="panel ad"><p>Student success is Owosso Public Schools' passion, which is why it was rated in the top 7% of schools!</p></div></li>
-					<li><div class="panel ad"><p>For people living in Owosso, you really can't beat the location.</p></div></li>
-					<li><div class="panel ad"><p>Owosso's middle and high schools have numerous clubs, including a robotics club and tautology club.</p></div></li>
+					<li><div class="panel ad shadowed"><i class="fa fa-arrow-up"></i><p>Student success is Owosso Public Schools' passion, which is why it was rated in the top 7% of schools!</p></div></li>
+					<li><div class="panel ad shadowed"><i class="fa fa-globe"></i><p>For people living in Owosso, you really can't beat the location.</p></div></li>
+					<li><div class="panel ad shadowed"><i class="fa fa-group"></i><p>Owosso's middle and high schools have numerous clubs, including a robotics club and tautology club.</p></div></li>
 				</ul>
 			</div>
 		</div>
@@ -118,6 +119,18 @@
 
 	<a href="https://github.com/anchpop/Owosso-Site" id="github-banner"><img style="" src="https://camo.githubusercontent.com/567c3a48d796e2fc06ea80409cc9dd82bf714434/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f6c6566745f6461726b626c75655f3132313632312e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_left_darkblue_121621.png"></a>
 
+	<!--<svg height="0" xmlns="http://www.w3.org/2000/svg">
+	    <filter id="drop-shadow">
+	        <feGaussianBlur in="SourceAlpha" stdDeviation="4"/>
+	        <feOffset dx="3" dy="3" result="offsetblur"/>
+	        <feFlood flood-color="rgba(0,0,0,0.5)"/>
+	        <feComposite in2="offsetblur" operator="in"/>
+	        <feMerge>
+	            <feMergeNode/>
+	            <feMergeNode in="SourceGraphic"/>
+	        </feMerge>
+	    </filter>
+	</svg>-->
 
     
     <script src="javascripts/vendor/jquery.js"></script>
