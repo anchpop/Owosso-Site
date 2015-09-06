@@ -62,22 +62,23 @@ body {
     filter: "progid:DXImageTransform.Microsoft.Dropshadow(OffX=12, OffY=12, Color='#444')";
 }*/
 
-
-.vignette {
-	position: relative;
-}
-.vignette {
-	display: block;
-}
-.vignette:after {
-	-moz-box-shadow: inset 0 0 20em #666;  
-	-webkit-box-shadow: inset 0 0 20em #666;   
-	box-shadow: inset 0 0 20em #666;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	z-index: 2;
-	content: "";
+@media screen and (min-width: 60em) {
+	.vignette {
+		position: relative;
+	}
+	.vignette {
+		display: block;
+	}
+	.vignette:after {
+		-moz-box-shadow: inset 0 0 20em #666;  
+		-webkit-box-shadow: inset 0 0 20em #666;   
+		box-shadow: inset 0 0 20em #666;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 2;
+		content: "";
+	}
 }
